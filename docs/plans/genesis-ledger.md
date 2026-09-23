@@ -1,7 +1,7 @@
 ---
 last_updated: 2026-09-23
-revision: 102
-status: Evidence-driven workflow setup is complete locally; the existing gameplay continuation and remaining acceptance gates retain their owners.
+revision: 103
+status: Evidence-driven workflow setup is complete locally; PR 82 owns authorized delivery and cleanup, while gameplay continuation retains its existing owner.
 public_safe: true
 summary: Standing workflow, reviewed death-return source baseline, material limits and links to the next gameplay continuation and dated history.
 ---
@@ -33,9 +33,11 @@ Updated 2026-09-23.
 **Completed local setup:** the [standing workflow](../agent-workflow.md)
 now owns evidence-driven graphs, model delegation, effort and continuation.
 The [archived setup record](2026-09-23-evidence-workflow.md) retains the completed
-graph, failed-check repair, verification receipts and single next action. This
-request ends at the verified local handoff; the existing gameplay dispatch below
-is preserved for its next resumption.
+graph, failed-check repair and verification receipts. The owner's subsequent
+merge-and-cleanup request is tracked by the canonical delivery graph in
+[PR #82](https://github.com/TusanHomichi/the-mortal-estate/pull/82), which owns its
+current state and next action. The existing gameplay dispatch below is preserved
+for its next resumption.
 
 **What works in the reviewed source:** `main` at
 `0764c639d3a4fa10e200eb885479ca3ffb21acfa` includes corpse-bound ordinary control
@@ -53,7 +55,7 @@ The death-return record routes those findings and combat-balance follow-ups.
 The separate presentation experiment remains paused before P1, artwork and motion
 remain provisional, and G10/G11 remain open. Setup changes none of those rulings.
 
-Read the setup record's next action before resuming the gameplay record.
+Read PR #82's delivery disposition before resuming the gameplay record.
 Earlier deliveries are
 [dated checkpoint history](#september-13-checkpoint-history) and
 [phase records](#phase-records), not additional current task lists.

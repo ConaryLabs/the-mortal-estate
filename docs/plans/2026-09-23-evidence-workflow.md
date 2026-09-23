@@ -1,7 +1,7 @@
 ---
 last_updated: 2026-09-23
-revision: 1
-status: History; standing workflow setup completed locally, with a verified repair cycle and retained evidence. Git delivery was outside this dispatch.
+revision: 2
+status: History; standing workflow setup completed locally, with a verified repair cycle and retained evidence. Subsequent authorized delivery is owned by PR 82.
 public_safe: true
 summary: Archived setup graph, owner effort waiver, hostname repair, verification evidence and local handoff limits.
 ---
@@ -15,6 +15,11 @@ as this project's standing default. Adapt the existing contract, workflow,
 verification usage and ledger; preserve project boundaries and existing work.
 This History record archives the canonical execution graph for setup. It does not dispatch the
 gameplay backlog or create an executor, plugin, dashboard or CI system.
+
+The owner's subsequent merge-and-cleanup request is tracked separately in
+[PR #82](https://github.com/TusanHomichi/the-mortal-estate/pull/82). Its canonical
+delivery graph owns current delivery state, required gates and the next action;
+this record preserves the original local setup's scope and receipts.
 
 Acceptance: the four entry documents agree on ownership, permissions, models,
 evidence and continuation; the changed-path documentation gates and link review
@@ -59,10 +64,10 @@ results; a worker's completion message alone does not satisfy acceptance.
 | W3 | Prove documentation and instruction discovery | W2, W2-V, W3-R | `gpt-6-luna` / `max` for documentation gates; `gpt-6-astra` / `max` for fresh-session review | Exact candidate, resolved check plan, official instruction guidance | Changed-path gates, supplemental new-file review and fresh-session result retained separately | complete | Parent reviewed all 14 PASS steps and 670 Python tests, fresh-session response and qualified whitespace control; receipts below |
 | W4 | Review, archive and hand off the completed setup | W3, W2-E | `gpt-6-astra` / `max` | Final diff, raw W3 receipts, graph and permission record | Parent review, affected rechecks, evidence read-back and owned cleanup; remaining limits and one next action recorded | complete | Parent self-review and receipt read-back; graph archived here, final affected-check receipts retained in the handoff bundle |
 
-Next action: at the next gameplay resumption, reconcile the
+Original setup handoff: at the next gameplay resumption, reconcile the
 [death-return record](2026-09-13-death-return.md) against current source and
 receipts before selecting its next bounded graph. This setup ends at the verified
-local documentation handoff.
+local documentation handoff. Subsequent authorized delivery follows PR #82 above.
 
 ## Evidence and findings
 
@@ -175,5 +180,6 @@ Limits: the running models' backend identities are not independently exposed by
 the host; requested routing and configuration are recorded honestly. This remains
 an agent-run procedure without an automatic dispatcher or restart service. Full
 runtime verification, hosted CI, merge and preview refresh were outside this
-documentation-only local dispatch. No task branches, worktrees or services were
-created; the seven changed files remain uncommitted on the entry `main` revision.
+documentation-only local dispatch. At that original handoff, no task branches,
+worktrees or services had been created and the seven changed files were
+uncommitted on the entry `main` revision. Later delivery evidence belongs to PR #82.
